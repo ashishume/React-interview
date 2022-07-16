@@ -1,4 +1,4 @@
-const FolderData = {
+export const FolderData = {
   name: "root",
   isFolder: true,
   items: [
@@ -44,5 +44,3 @@ const FolderData = {
     },
   ],
 };
-
-export default FolderData;
