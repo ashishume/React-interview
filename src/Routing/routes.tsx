@@ -4,6 +4,8 @@ import FolderComponent from "../components/FolderComponent";
 import ContextParent from "../containers/ContextParent";
 import Photo from "../containers/Photo";
 import { FolderData } from "../Data/FolderData";
+import Dashboard from "../e-commerce/components/dashboard";
+import Cart from "../e-commerce/containers/cart";
 import UseCallbackHook from "../hooks/UseCallback/useCallback";
 import Factorial from "../hooks/useMemo";
 import StopWatch from "../hooks/useReducer";
@@ -39,5 +41,13 @@ export const routes: {
   {
     routeName: "context-api",
     component: <ContextParent />,
+  },
+  {
+    routeName: "store",
+    component: <Dashboard />,
+  },
+  {
+    routeName: "store/cart",
+    component: <Cart />,
   },
 ];

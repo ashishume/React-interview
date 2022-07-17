@@ -1,4 +1,4 @@
-import { ChangeEvent, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 const Factorial = () => {
   const findFactorial = (value: number): number => {
